@@ -1,1 +1,7 @@
-<p>productos works!</p>
+<div *ngFor="let pan of panes">
+    <img [src]="pan.image" alt="{{ pan.name }}">
+    <h3>{{ pan.name }}</h3>
+    <!--<p>Precio: {{ pan.price | currency:'COP' }}</p>  Asegúrate de que el pipe esté bien -->
+    <button (click)="comprar(pan)">Comprar</button>
+  </div>
+  

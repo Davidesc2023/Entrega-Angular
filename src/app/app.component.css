@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    color: rgb(194, 169, 10);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .productos-container {
+    background-color: black; /* Fondo negro */
+    color: white; /* Texto blanco */
+    padding: 20px;
+  }
+  
+  .productos-title {
+    text-align: center;
+    font-size: 3rem; /* Tamaño grande para el título */
+    margin-bottom: 20px;
+  }
+  
+  .productos-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Dos columnas */
+    gap: 20px; /* Espacio entre los productos */
+    max-width: 1200px; /* Ancho máximo para el grid */
+    margin: 0 auto; /* Centra el grid horizontalmente */
+  }
+  
+  .producto {
+    background-color: #222; /* Fondo gris oscuro para los productos */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 15px;
+    text-align: center; /* Centra el texto dentro del producto */
+  }
+  
+  .producto img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  button {
+    background-color: gold; /* Color dorado para el botón */
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d4af37; /* Efecto hover */
+  }
+  
+  .back-button {
+    margin-top: 20px; /* Espacio entre la sección de productos y el botón de volver */
+    display: block; /* Hace que el botón ocupe toda la línea */
+    text-align: center; /* Centra el botón */
+  }

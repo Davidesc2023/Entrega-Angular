@@ -1,0 +1,27 @@
+.home-container {
+  background-color: yellow; /* Fondo amarillo */
+  text-align: center; /* Centra el contenido */
+  padding: 50px; /* Espaciado interior */
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+}
+
+h1 {
+  color: black; /* Cambia a blanco si deseas letras blancas */
+  font-size: 3em; /* Tamaño de fuente grande */
+}
+
+.btn-welcome {
+  background-color: white; /* Fondo blanco para el botón */
+  color: black; /* Letras negras para el botón */
+  border: none; /* Sin borde */
+  padding: 15px 30px; /* Espaciado del botón */
+  font-size: 1.5em; /* Tamaño de fuente del botón */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s; /* Transición suave para hover */
+}
+
+.btn-welcome:hover {
+  background-color: #f0f0f0; /* Color al pasar el mouse */
+}
+
